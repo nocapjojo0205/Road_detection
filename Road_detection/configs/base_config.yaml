@@ -1,0 +1,12 @@
+# 训练配置
+num_classes: 6
+batch_size: 32
+num_workers: 4
+learning_rate: 0.001
+weight_decay: 0.0001
+epochs: 20
+patience: 3
+
+# 路径配置
+data_dir: "./data"
+model_save_path: "./best_model.pth"
